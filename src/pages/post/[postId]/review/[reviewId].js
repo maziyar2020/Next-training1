@@ -3,15 +3,16 @@ import { useRouter } from "next/router";
 const Review = () => {
 
     const router = useRouter()
-    const {reviewId , postId} = router.query
+    const { reviewId, postId } = router.query
 
-    return ( 
+    return (
         <div>
-            slm id man {reviewId}
-            slm
+            <div>slm id man {reviewId}</div>
+            <br />
+            <div>slm postId man {postId}</div>
         </div>
 
-     );
+    );
 }
- 
+
 export default Review;
