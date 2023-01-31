@@ -95,3 +95,18 @@ a {
     color-scheme: dark;
   }
 }
+
+.episode{
+  padding: 20px 40px;
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.09);
+  width: 500px;
+  margin: 20px auto;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.episode:hover{
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.3);
+  transform: scale(1.01);
+}

@@ -1,18 +1,12 @@
 import axios from "axios";
+import User from "components/User";
 
-const UsersList = (props) => {
-    const users = props.userList.results
+const UsersList = ({ userList }) => {
+    const users = userList.results
     return (
-        <div>
-            <h1>slm</h1>
-            <div>
-                {
-                    users.map(user => {
-                        return (<p key={user.id}>name : {user.name} -- status : {user.status} </p>)
-                    })
-                }
-            </div>
-        </div>
+        users.map(user =>
+            <User user={user} key={user.id} />
+        )
     );
 }
 
