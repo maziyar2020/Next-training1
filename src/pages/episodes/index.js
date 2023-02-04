@@ -1,30 +1,28 @@
 import axios from "axios";
 import Link from "next/link";
 
-
-const EpisodeList = ({ episodeList }) => {
-    const episodes = episodeList.results
+const EpisodeList = ({ results }) => {
 
     return (
-        episodes.map(episode =>
-            <Link href={`/episodes/${episode.id}`} passHref>
-                <div key={episode.id} className="episode">
+        <>
+            {results.map(episode => {
+                return <Link key={episode.id} href={`./episodes/${episode.id}`}>
+                    <p className="episode" >{episode.name} - {episode.air_date}</p>
+                </Link>
 
-                    {episode.episode} - name : {episode.name}
-                </div>
-            </Link>
-
-        )
+            })}
+        </>
     );
 }
 
 export default EpisodeList;
 
+
 export async function getStaticProps() {
     const { data } = await axios.get('https://rickandmortyapi.com/api/episode')
     return {
-        props: {
-            episodeList: data
-        }
+        props: data
     }
 }
+
+

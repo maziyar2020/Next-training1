@@ -4,6 +4,8 @@ const Home = () => {
   return (
     <div>
       <Link href="./users">users</Link>
+      <hr/>
+      <Link href="./episodes">episodes</Link>
     </div>
   );
 }
