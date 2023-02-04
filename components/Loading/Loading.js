@@ -3,6 +3,6 @@ export default function LoadingSpinner() {
 
 
   return (
-    <div class="lds-dual-ring"></div>
+    <div className="lds-dual-ring"></div>
   );
 }
