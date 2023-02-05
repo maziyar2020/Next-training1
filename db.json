@@ -2,7 +2,7 @@
   "products":[
     {
       "id" : 1,
-      "title":"product #2",
+      "title":"product 1",
       "price" : 1000,
       "description" : "description"
     },
