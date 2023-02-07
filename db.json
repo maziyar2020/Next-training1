@@ -1,22 +1,60 @@
 {
-  "products":[
+  "products": [
     {
-      "id" : 1,
-      "title":"product 1",
-      "price" : 1000,
-      "description" : "description"
+      "id": 1,
+      "title": "product 1",
+      "price": 1000,
+      "description": "description"
     },
     {
-      "id" : 2,
-      "title":"product 2",
-      "price" : 3000,
-      "description" : "description 2"
+      "id": 2,
+      "title": "product 2",
+      "price": 3000,
+      "description": "description 2"
     },
     {
-      "id" : 3,
-      "title":"product 3",
-      "price" : 500,
-      "description" : "description 3"
+      "id": 3,
+      "title": "product 3",
+      "price": 500,
+      "description": "description 3"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "React Hooks",
+      "category": "react.js",
+      "description": "description"
+    },
+    {
+      "id": 2,
+      "title": "Redux in next.js",
+      "category": "react.js",
+      "description": "description 2"
+    },
+    {
+      "id": 3,
+      "title": "What is tailwind Css ?",
+      "category": "front-end",
+      "description": "description 3"
+    },
+    {
+      "id": 4,
+      "title": "What is Next.js ?",
+      "category": "front-end",
+      "description": "description 4"
+    },
+    {
+      "id": 5,
+      "title": "Diffrent type of Database ",
+      "category": "back-end",
+      "description": "description 5"
+    },
+    {
+      "id": 6,
+      "title": "what is Node.js ",
+      "category": "back-end",
+      "description": "description 6"
     }
   ]
 }
