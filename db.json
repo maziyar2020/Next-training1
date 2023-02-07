@@ -23,13 +23,13 @@
     {
       "id": 1,
       "title": "React Hooks",
-      "category": "react.js",
+      "category": "react-js",
       "description": "description"
     },
     {
       "id": 2,
       "title": "Redux in next.js",
-      "category": "react.js",
+      "category": "react-js",
       "description": "description 2"
     },
     {
